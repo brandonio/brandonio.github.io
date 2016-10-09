@@ -39,5 +39,6 @@ if (yos.length) {
 			}
 		}
 		yo.style.color = colors[Math.floor(colors.length * Math.random())];
+		count.style.color = yo.style.color;
 	});
 }
