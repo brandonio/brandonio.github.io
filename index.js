@@ -20,6 +20,8 @@ if (yos.length) {
 		count.innerHTML = "Clicks: " + i;
 		if (i === 310) {
 			count.innerHTML = count.innerHTML + " eyyy!";
+		} else if (i === 327) {
+			count.innerHTML = "Happy Birthday to Me!";
 		} else if (i === 404) {
 			count.innerHTML = "Error: Clicks Not Found!";
 		} else if (i === 416) {
