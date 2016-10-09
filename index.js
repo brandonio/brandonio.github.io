@@ -1,5 +1,5 @@
 var yos = document.getElementsByClassName("yo");
-
+var count = document.getElementsByClassName("counter")[0];
 if (yos.length) {
 	var yo = yos[0];
 
@@ -11,10 +11,20 @@ if (yos.length) {
 				"#031A6B", "#75DDDD", "#09BC8A",
 				"#B1DDF1", "#FFA5AB", "#383B53",
 				"#A53860", "#9F87AF", "#E55934"];
-	var i = 0;
 
 	var add = true;
+
+	var i = 0;
 	yo.addEventListener("click", function() {
+		i = i + 1;
+		count.innerHTML = "Clicks: " + i;
+		if (i === 310) {
+			count.innerHTML = count.innerHTML + " eyyy!";
+		} else if (i === 404) {
+			count.innerHTML = "Error: Clicks Not Found!";
+		} else if (i === 416) {
+			count.innerHTML = count.innerHTML + " The 6! OVOXO";
+		}
 		if (add) {
 			yo.innerHTML = yo.innerHTML.slice(0, yo.innerHTML.length - 1) + "o.";
 			if (yo.offsetWidth > document.body.clientWidth - 150) {
@@ -26,7 +36,6 @@ if (yos.length) {
 				add = true;
 			}
 		}
-		yo.style.color = colors[i];
-		i = (i + 1) % colors.length;
+		yo.style.color = colors[Math.floor(colors.length * Math.random())];
 	});
 }

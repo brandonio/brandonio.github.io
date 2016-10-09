@@ -17,10 +17,24 @@ html {
 	font-size: 60px;
 }
 
+.counter {
+	color: white;
+	font-size: 16px;
+	font-family: 'Product Sans', Arial, sans-serif;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+
 .yo {
 	cursor: pointer;
-	user-select: none;
 	transition: color 0.1s linear;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-khtml-user-select: none;    /* Konqueror */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* Internet Explorer/Edge */
+	user-select: none; 
 }
 
 @media only screen and (max-width: 1160px) {
