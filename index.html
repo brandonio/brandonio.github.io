@@ -1,10 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Brandon Berookhim</title>
+  <link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet">
+  <title>Brandon Berookhim</title>
+  <link rel="stylesheet" href="./styles.css"
 </head>
 <body>
-	<p>yo.</p>
-	<h1>My name is Brandon Berookhim and I am a sophomore studying Computer Science and Business Administration at the University of California, Berkeley. I am a bike-riding, burger-eating, pun-loving, basketball-playing tech enthusiast from Los Angeles.</h1>
+  <div class="container">
+	<h1 class="header">yo.</h1>
+	<p class="description">String name = "Brandon Berookhim";</p>
+	<p class="description">String school = "University of California, Berkeley";</p>
+	<p class="description">int year = 2;</p>
+	<p class="description">Hacker bb = new Hacker(name, school, year);</p>
+	<p class="description">bb.setMajors(new String[] {"Computer Science", "Business Administration"});</p>
+	<p class="description">bb.setHometown("Los Angeles");</p>
+	<p class="description">bb.setHobbies(new String[] {"bicycles", "basketball"});</p>
+	<p class="description">bb.setInterests(new String[] {"rap music", "food", "phones"});</p>
+	<p class="description">bb.printExperience();</p>
+	<pre class="json">
+[
+  {
+	"company": "Jet Propulsion Laboratory",
+	"start": "June 2014",
+	"end": "August 2014",
+	"position": "Programmer, Lab Assistant",
+	"description": "Wrote a program in C++ for NASA's DSAC project and worked on hardware review and laboratory hardware",
+	"gained": "exposure to professional and governmental environment",
+	"learned": "C++ and handling critical, valuable equipment"
+  },
+  {
+	"company": "Prevoty",
+	"start": "July 2016",
+	"end": "September 2016",
+	"position": "Software Engineering Intern",
+	"description": "Redesigned existing test system with documentation, serialization, and CRUD tool",
+	"gained": "experience using existing codebase and writing documentation",
+	"learned": "GSON, Maven, and working with sensitive data"
+  }
+]
+	</pre>
+	<p class="description">bb.printProjects();</p>
+	<pre class="json">
+[
+  {
+    "name": "Lumboard",
+    "platform": "iOS",
+    "link": <a href="www.tinyurl.com/lumboard">"tinyurl.com/lumboard"</a>,
+    "description": "Lumboard helps users text more quickly and easily on a Material Designed keyboard. It was built at the University of Waterloo's Hack The North, and it hit the App Store as one of the first custom keyboards."
+  },
+  {
+    "name": "Toothbrush Buddy",
+    "platform": "Pebble",
+    "link": <a href="www.tinyurl.com/pebbletooth">"tinyurl.com/pebbletooth"</a>,
+    "description": "Toothbrush Buddy, which has been featured on Reddit multiple times, has been one of the most popular hygiene apps on the Pebble Store since its release. It helps users brush their teeth throughly and for an appropriate amount of time."
+  }
+]
+	</pre>
+	<p class="description">bb.printSkills();</p>
+	<pre class="json">
+{
+  "languages": ["English", "Spanish", "Farsi", "Hebrew"],
+  "real_languages": ["Java", "Python", "C++", "SQL", "Scheme", "HTML/CSS"],
+  "tools": ["Git", "MS Suite", "Google Suite", "Adobe InDesign", "Adobe Photoshop"]
+}
+	</pre>
+  </div>
 </body>
 </html>

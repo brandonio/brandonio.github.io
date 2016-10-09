@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.header {
+	margin: 0 0 10px -5px;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 0;
+}
+
+.description {
+	margin: 0 0 0 10px;
+	width: 100%;
+}
+
+.json {
+	margin: 0;
+	border: 0;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #eee;
+	white-space: pre-wrap;
+}
+
+
+
