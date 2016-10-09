@@ -4,67 +4,71 @@
   <link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet">
   <title>Brandon Berookhim</title>
-  <link rel="stylesheet" href="./styles.css"
+  <link rel="stylesheet" href="./solarized-dark.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <div class="container">
-	<h1 class="header">yo.</h1>
-	<p class="description">String name = "Brandon Berookhim";</p>
-	<p class="description">String school = "University of California, Berkeley";</p>
-	<p class="description">int year = 2;</p>
-	<p class="description">Hacker bb = new Hacker(name, school, year);</p>
-	<p class="description">bb.setMajors(new String[] {"Computer Science", "Business Administration"});</p>
-	<p class="description">bb.setHometown("Los Angeles");</p>
-	<p class="description">bb.setHobbies(new String[] {"bicycles", "basketball"});</p>
-	<p class="description">bb.setInterests(new String[] {"rap music", "food", "phones"});</p>
-	<p class="description">bb.printExperience();</p>
-	<pre class="json">
-[
+	<h1 class="header"><span class="yo">yo.</span></h1>
+	<pre><code class="java">String name = "Brandon Berookhim";
+String hometown = "Los Angeles";
+String school = "University of California, Berkeley";
+int year = 2;
+Hacker me = new Hacker(name, hometown, school, year);
+me.setMajors(new String[] {"Computer Science", "Business Administration"});
+me.setHobbies(new String[] {"bicycles", "basketball"});
+me.setInterests(new String[] {"rap music", "food", "phones"});
+me.printExperience();</code></pre>
+	<pre><code class="json">[
   {
-	"company": "Jet Propulsion Laboratory",
-	"start": "June 2014",
-	"end": "August 2014",
-	"position": "Programmer, Lab Assistant",
-	"description": "Wrote a program in C++ for NASA's DSAC project and worked on hardware review and laboratory hardware",
-	"gained": "exposure to professional and governmental environment",
-	"learned": "C++ and handling critical, valuable equipment"
+    "company": "Jet Propulsion Laboratory",
+    "start": "June 2014",
+    "end": "August 2014",
+    "position": "Programmer, Lab Assistant",
+    "description": "Wrote programs for NASA's DSAC project and worked on hardware review",
+    "gained": "exposure to professional and governmental environment",
+    "learned": "C++ and handling critical, valuable equipment"
   },
   {
-	"company": "Prevoty",
-	"start": "July 2016",
-	"end": "September 2016",
-	"position": "Software Engineering Intern",
-	"description": "Redesigned existing test system with documentation, serialization, and CRUD tool",
-	"gained": "experience using existing codebase and writing documentation",
-	"learned": "GSON, Maven, and working with sensitive data"
+    "company": "Prevoty",
+    "start": "July 2016",
+    "end": "September 2016",
+    "position": "Software Engineering Intern",
+    "description": "Redesigned test system with documentation, serialization, and CRUD tool",
+    "gained": "experience using existing codebase and writing documentation",
+    "learned": "GSON, Maven, and working with sensitive data"
   }
-]
-	</pre>
-	<p class="description">bb.printProjects();</p>
-	<pre class="json">
-[
+]</code></pre>
+    <pre><code class="java">me.printProjects();</code></pre>
+    <pre><code class="json">[
   {
     "name": "Lumboard",
     "platform": "iOS",
-    "link": <a href="www.tinyurl.com/lumboard">"tinyurl.com/lumboard"</a>,
+    "link": <a href="http://www.tinyurl.com/lumboard">"tinyurl.com/lumboard"</a>,
     "description": "Lumboard helps users text more quickly and easily on a Material Designed keyboard. It was built at the University of Waterloo's Hack The North, and it hit the App Store as one of the first custom keyboards."
   },
   {
     "name": "Toothbrush Buddy",
     "platform": "Pebble",
-    "link": <a href="www.tinyurl.com/pebbletooth">"tinyurl.com/pebbletooth"</a>,
+    "link": <a href="http://www.tinyurl.com/pebbletooth">"tinyurl.com/pebbletooth"</a>,
     "description": "Toothbrush Buddy, which has been featured on Reddit multiple times, has been one of the most popular hygiene apps on the Pebble Store since its release. It helps users brush their teeth throughly and for an appropriate amount of time."
   }
-]
-	</pre>
-	<p class="description">bb.printSkills();</p>
-	<pre class="json">
-{
+]</code></pre>
+	<pre><code class="java">me.printSkills();</code></pre>
+<pre><code class="json">{
   "languages": ["English", "Spanish", "Farsi", "Hebrew"],
   "real_languages": ["Java", "Python", "C++", "SQL", "Scheme", "HTML/CSS"],
-  "tools": ["Git", "MS Suite", "Google Suite", "Adobe InDesign", "Adobe Photoshop"]
-}
-	</pre>
+  "tools": ["Git", "MicroSoft Suite", "Google Suite", "Adobe InDesign", "Adobe Photoshop"]
+}</code></pre>
+    <div class="links">
+      <a href="mailto:brandonberookhim@gmail.com">me.sendEmail();</a>
+      <a href="https://www.linkedin.com/pub/brandon-berookhim/72/877/561">me.getLinkedIn();</a>
+      <a href="https://www.github.com/brandonio">me.getGitHub();</a>
+      <a href="https://www.http//devpost.com/brandonio">me.getDevPost();</a>
+    </div>
   </div>
+  <script src="./highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="./index.js"></script>
 </body>
 </html>

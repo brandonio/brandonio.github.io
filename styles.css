@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Source Code Pro', monospace;
+  background-color: #002b36;
 }
 
 *, *:before, *:after {
@@ -8,8 +9,24 @@ html {
 }
 
 .header {
-	margin: 0 0 10px -5px;
-	font-family: 'Roboto', sans-serif;
+	color: white;
+	position: relative;
+	left: -30px;
+	margin: 0 0 10px 0;
+	font-family: 'Product Sans', Arial, sans-serif;
+	font-size: 60px;
+}
+
+.yo {
+	cursor: pointer;
+	user-select: none;
+	transition: color 0.1s linear;
+}
+
+@media only screen and (max-width: 1160px) {
+	.header {
+		left: 10px;
+	}
 }
 
 body {
@@ -20,7 +37,7 @@ body {
 
 .container {
 	max-width: 1100px;
-	margin: 0 auto;
+	margin: 10px auto 40px auto;
 }
 
 h1 {
@@ -32,14 +49,34 @@ h1 {
 	width: 100%;
 }
 
-.json {
+pre {
 	margin: 0;
-	border: 0;
-	padding: 10px;
-	border-radius: 4px;
-	background-color: #eee;
+	padding: 0;
+}
+
+code {
 	white-space: pre-wrap;
 }
 
+.java {
+	font-size: 22px;
+}
 
+.json {
+	font-size: 18px;
+}
 
+a span {
+	color: #dc322f !important;
+}
+
+a {
+	color: #dc322f !important;
+	text-decoration: none;
+	text-align: justify-all;
+}
+
+.links {
+	display: flex;
+	justify-content: space-around;
+}
