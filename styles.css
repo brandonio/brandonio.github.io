@@ -102,3 +102,33 @@ a {
 .nobold {
 	font-weight: normal;
 }
+
+.first-g span {
+	font-family: 'Product Sans', Arial, sans-serif;
+	color: #4885ed !important;
+}
+
+.second-g span {
+	font-family: 'Product Sans', Arial, sans-serif;
+	color: #4885ed !important;
+}
+
+.first-o span {
+	font-family: 'Product Sans', Arial, sans-serif;
+	color: #db3236 !important;
+}
+
+.second-o span {
+	font-family: 'Product Sans', Arial, sans-serif;
+	color: #f4c20d !important;
+}
+
+.l span {
+	font-family: 'Product Sans', Arial, sans-serif;
+	color: #3cba54 !important;
+}
+
+.e span {
+	font-family: 'Product Sans', Arial, sans-serif;
+	color: #db3236 !important;
+}
