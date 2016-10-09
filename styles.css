@@ -98,3 +98,7 @@ a {
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
+
+.nobold {
+	font-weight: normal;
+}
