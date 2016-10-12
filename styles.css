@@ -12,7 +12,7 @@ html {
 	color: white;
 	position: relative;
 	left: -30px;
-	margin: 0 0 10px 0;
+	margin: 0 0 5px 0;
 	font-family: 'Product Sans', Arial, sans-serif;
 	font-size: 60px;
 }
@@ -21,8 +21,8 @@ html {
 	color: white;
 	font-size: 16px;
 	font-family: 'Product Sans', Arial, sans-serif;
-	left: 0;
-	top: 0;
+	left: 210px;
+	top: 10px;
 	position: absolute;
 }
 
@@ -40,6 +40,12 @@ html {
 
 }
 
+.funcs {
+	color: #91f3ff;
+	font-weight: 600;
+	font-size: 19px;
+}
+
 @media only screen and (max-width: 1160px) {
 	.header {
 		left: 10px;
@@ -53,8 +59,8 @@ body {
 }
 
 .container {
-	max-width: 1100px;
-	margin: 10px auto 40px auto;
+	max-width: 960px;
+	margin: 20px auto 70px auto;
 }
 
 h1 {
@@ -76,11 +82,11 @@ code {
 }
 
 .java {
-	font-size: 22px;
+	font-size: 17px;
 }
 
 .json {
-	font-size: 18px;
+	font-size: 16px;
 }
 
 a span {

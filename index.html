@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="container">
-  	<div class="counter"> </div>
+  	<div class="counter">Clicks: 0</div>
 	<h1 class="header"><span class="yo">yo.</span></h1>
 	<pre><code class="java">String name = "Brandon Berookhim &#x1F44C";
 String hometown = "Los Angeles &#x1F334";
@@ -19,10 +19,10 @@ String school = "University of California, Berkeley &#x1F43B";
 int year = 2 &#x270C;;
 Hacker me = new Hacker(name, hometown, school, year);
 me.setMajors(new String[] {"Computer Science &#x1F4BB", "Business Administration &#x1F4BC"});
-me.setHobbies(new String[] {"bicycles &#x1F6B2", "basketball &#x1F3C0"});
-me.setInterests(new String[] {"rap &#x1F3A7", "food &#x1F354", "food &#x1F363", "phones &#x1F4F1"});
-me.printExperience();</code></pre>
-	<pre><code class="json">[
+me.setHobbies(new String[] {"bicycling &#x1F6B2", "ballin' &#x1F3C0", "being efficient &#x23F2"});
+me.setPassions(new String[] {"rap &#x1F3A7", "food &#x1F354", "food &#x1F363", "food &#x1F355", "phones &#x1F4F1"});
+</code></pre>
+	<pre><code class="java"><span class="funcs">me.printExperience();</span></code><code class="json">[
   {
     "company": <a href="http://www.jpl.nasa.gov/missions/deep-space-atomic-clock-dsac/">"Jet Propulsion Laboratory &#x1F680"</a>,
     "start": "June 2014",
@@ -42,7 +42,8 @@ me.printExperience();</code></pre>
     "learned": "GSON, Maven, and working with sensitive data"
   }
 ]</code></pre>
-    <pre><code class="java">me.printProjects();</code></pre>
+    <pre><code class="java"><span class="funcs">
+me.printProjects();</span></code></pre>
     <pre><code class="json">[
   {
     "name": <a href="https://itunes.apple.com/us/app/lumboard/id923061413?mt=8">"Lumboard &#x1F524"</a>,
@@ -55,7 +56,8 @@ me.printExperience();</code></pre>
     "description": "Toothbrush Buddy, which has been featured on Reddit multiple times, has been one of the most popular hygiene apps on the Pebble Store since its release. It helps users brush their teeth throughly and for an appropriate amount of time."
   }
 ]</code></pre>
-	<pre><code class="java">me.printSkills();</code></pre>
+	<pre><code class="java"><span class="funcs">
+me.printSkills();</span></code></pre>
 <pre><code class="json">{
   "languages": ["English &#x1F1FA&#x1F1F8", "Spanish &#x1F1EA&#x1F1F8", "Farsi &#x1F1EE&#x1F1F7", "Hebrew &#x1F1EE&#x1F1F1"],
   "real_languages": ["Java &#x2615", "Python &#x1F40D", "C++", "SQL", "Scheme", "HTML/CSS/JS"],

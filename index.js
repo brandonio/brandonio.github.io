@@ -3,13 +3,13 @@ var count = document.getElementsByClassName("counter")[0];
 if (yos.length) {
 	var yo = yos[0];
 
-	var colors = ["blue", "red", "green", "white",
-				"yellow", "black", "magenta",
+	var colors = ["red", "green", "white",
+				"yellow", "magenta", "orange", "purple",
 				"#6a0136", "#91a6ff", "#16db93",
-				"#0e6ba8", "#efea5a", "#87F1FF",
+				"#0e6ba8", "#efea5a",
 				"#2DE1C2", "#9368B7", "#AF125A",
-				"#031A6B", "#75DDDD", "#09BC8A",
-				"#B1DDF1", "#FFA5AB", "#383B53",
+				"#75DDDD", "#09BC8A",
+				"#B1DDF1", "#FFA5AB",
 				"#A53860", "#9F87AF", "#E55934"];
 
 	var add = true;
@@ -29,6 +29,7 @@ if (yos.length) {
 		} else if (i === 531){
 			count.innterHTML = "Happy Birthday to Leila!";
 		}
+		yo.style.color = colors[Math.floor(colors.length * Math.random())];
 		if (add) {
 			yo.innerHTML = yo.innerHTML.slice(0, yo.innerHTML.length - 1) + "o.";
 			if (yo.offsetWidth > document.body.clientWidth - 150) {
@@ -38,9 +39,9 @@ if (yos.length) {
 			yo.innerHTML = yo.innerHTML.slice(0, yo.innerHTML.length - 2) + ".";
 			if (yo.innerHTML.length === 3) {
 				add = true;
+				yo.style.color = "white";
 			}
 		}
-		yo.style.color = colors[Math.floor(colors.length * Math.random())];
 		count.style.color = yo.style.color;
 	});
 }
