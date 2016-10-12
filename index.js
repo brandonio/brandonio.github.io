@@ -32,7 +32,7 @@ if (yos.length) {
 		yo.style.color = colors[Math.floor(colors.length * Math.random())];
 		if (add) {
 			yo.innerHTML = yo.innerHTML.slice(0, yo.innerHTML.length - 1) + "o.";
-			if (yo.offsetWidth > document.body.clientWidth - 150) {
+			if (yo.offsetWidth > document.body.clientWidth - 240) {
 				add = false;
 			}
 		} else {
