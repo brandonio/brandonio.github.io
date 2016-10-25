@@ -26,9 +26,8 @@ if (yos.length) {
 			count.innerHTML = "Error: Clicks Not Found!";
 		} else if (i === 416) {
 			count.innerHTML = count.innerHTML + " The 6! OVOXO";
-		} else if (i === 531){
-			count.innterHTML = "Happy Birthday to Leila!";
 		}
+		
 		yo.style.color = colors[Math.floor(colors.length * Math.random())];
 		if (add) {
 			yo.innerHTML = yo.innerHTML.slice(0, yo.innerHTML.length - 1) + "o.";
