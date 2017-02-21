@@ -51,14 +51,6 @@ html {
 	}
 }
 
-.lumboard span{
-	 color: #dc322f;
-}
-
-.peace span{
-	margin: 0 0 5px 0;
-}
-
 body {
 	overflow-x: hidden;
 	margin: 0;
@@ -144,4 +136,12 @@ a {
 .e span {
 	font-family: 'Product Sans', Arial, sans-serif;
 	color: #db3236 !important;
+}
+
+.lumboard span {
+	color: #dc322f !important;
+}
+
+.peace span {
+	margin: 0 0 5px 0 !important;
 }
