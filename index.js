@@ -19,13 +19,13 @@ if (yos.length) {
 		i = i + 1;
 		count.innerHTML = "Clicks: " + i;
 		if (i === 310) {
-			count.innerHTML = count.innerHTML + " eyyy!";
+			count.innerHTML = "Eyyy!";
 		} else if (i === 327) {
 			count.innerHTML = "Happy Birthday to Me!";
 		} else if (i === 404) {
 			count.innerHTML = "Error: Clicks Not Found!";
 		} else if (i === 416) {
-			count.innerHTML = count.innerHTML + " The 6! OVOXO";
+			count.innerHTML = "The 6!";
 		}
 		
 		yo.style.color = colors[Math.floor(colors.length * Math.random())];
