@@ -13,15 +13,17 @@
   <div class="container">
   	<div class="counter">Clicks: 0</div>
 	<h1 class="header"><span class="yo">yo.</span></h1>
-	<pre><code class="java">String name = "Brandon Berookhim &#x1F44D";String location = "Los Angeles &#x1F334";String school = "University of California, Berkeley &#x1F43B"; boolean isJobHunting = true;
-Hacker me = new Hacker(name, location, school, isJobHunting);
-me.setDegrees(new String[] {"L&S Computer Science &#x1F4BB", "Haas Business Administration &#x1F4BC"});
-me.setHobbies(new String[] {"bicycling &#x1F6B2", "ballin' &#x1F3C0", "efficiency &#x23F2"});
-me.setPassions(new String[] {"rap &#x1F3A7", "food &#x1F354", "food &#x1F363", "food &#x1F355", "phones &#x1F4F1"});
-<!-- me.setActivities(new String[] {"Cal Hacks", "Cal Alumni Association", "TAMID Group"}); -->
+	<pre><code class="java">String name = "Brandon Berookhim &#x1F44D";
+    String location = "Los Angeles &#x1F334";
+    String school = "University of California, Berkeley &#x1F43B";
+    boolean isJobHunting = true;
+Hacker brandon = new Hacker(name, location, school, isJobHunting);
+brandon.setDegrees(new String[] {"L&S Computer Science &#x1F4BB", "Haas Business Administration &#x1F4BC"});
+brandon.setHobbies(new String[] {"bicycling &#x1F6B2", "ballin' &#x1F3C0", "efficiency &#x23F2"});
+brandon.setPassions(new String[] {"rap &#x1F3A7", "food &#x1F354", "food &#x1F363", "food &#x1F355", "phones &#x1F4F1"});
 </code></pre>
 
-    <pre><code class="java"><span class="funcs">me.printProjects();</span></code></pre>
+    <pre><code class="java"><span class="funcs">brandon.printProjects();</span></code></pre>
     <pre><code class="json">[
   {
     "name": <a href="https://goo.gl/JYUwL4">"Backgammon &#x1F3B2"</a>,
@@ -34,18 +36,11 @@ me.setPassions(new String[] {"rap &#x1F3A7", "food &#x1F354", "food &#x1F363", "
     "description": "Toothbrush Buddy, which has been featured on Reddit multiple times, has been one of the most popular hygiene apps on the Pebble Store since its release. It helps users brush their teeth throughly and for an appropriate amount of time."
   }
 ]</code></pre>
-	<!-- <pre><code class="java"><span class="funcs">
-me.printSkills();</span></code></pre>
-<pre><code class="json">{
-  "languages": ["English &#x1F1FA&#x1F1F8", "Spanish &#x1F1EA&#x1F1F8", "Farsi &#x1F1EE&#x1F1F7", "Hebrew &#x1F1EE&#x1F1F1"],
-  "real_languages": ["Java &#x2615", "Python &#x1F40D", "SQL", "Scheme", "HTML", "CSS", "JS"],
-  "tools": ["Git", "Microsoft Suite", "<span class="first-g nohighlight">G</span><span class="first-o">o</span><span class="second-o">o</span><span class="second-g">g</span><span class="l">l</span><span class="e">e</span> Suite", "Adobe Suite"]
-}</code></pre> -->
     <div class="links">
-      <a href="mailto:brandon@berookh.im">me.sendEmail(); &#x1F4E9</a>
-      <a href="http://brandonb.me/blog/">me.getBlog();</a>
-      <a href="https://goo.gl/9vFVpX">me.getGitHub();</a>
-      <a href="https://drive.google.com/file/d/0B5S4OB4HMMUZRTVkZmFXai1sUDQ/view?usp=sharing">me.getRésumé(); &#x1F4C4</a>
+      <a href="mailto:brandon@berookh.im">brandon.sendEmail(); &#x1F4E9</a>
+      <a href="http://blog.berookh.im">brandon.getBlog();</a>
+      <a href="https://goo.gl/9vFVpX">brandon.getGitHub();</a>
+      <a href="https://drive.google.com/file/d/0B5S4OB4HMMUZRTVkZmFXai1sUDQ/view?usp=sharing">brandon.getResume(); &#x1F4C4</a>
     </div>
   </div>
   <script src="./highlight.pack.js"></script>
